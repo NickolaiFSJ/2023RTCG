@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 31854283}
   - component: {fileID: 31854282}
   - component: {fileID: 31854281}
+  - component: {fileID: 31854284}
   m_Layer: 0
   m_Name: Placeholder2
   m_TagString: Untagged
@@ -198,7 +199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 36c5382b01950e940b1f00eee5f023a5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,6 +229,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31854279}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &31854284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31854279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2abd18992fc2429b649e810770174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 36c5382b01950e940b1f00eee5f023a5, type: 2}
+  spotlight: {fileID: 46415427}
 --- !u!1 &46415424
 GameObject:
   m_ObjectHideFlags: 0
