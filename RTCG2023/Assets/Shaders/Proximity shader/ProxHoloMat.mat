@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ProxHoloMat
-  m_Shader: {fileID: -6465566751694194690, guid: 32876e500c4f45e4a9c0effb6ee3a762,
+  m_Shader: {fileID: -6465566751694194690, guid: 7ae3c92ae89870a4897e91e545daa6be,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
